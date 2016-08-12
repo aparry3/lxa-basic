@@ -1,0 +1,77 @@
+.masthead-header {
+    font-size: 6.0em;
+    font-weight: 100;
+    color: white;
+    text-align: left;
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border: none;
+}
+
+.menu-header {
+    font-size: 1.5em;
+    padding: none;
+    color: #FFD54F !important;
+}
+
+.middle {
+  padding-top: 9em;
+}
+
+.chapter {
+    color: #FFD54F !important;
+    font-size: 4.2rem !important;
+    line-height: 0rem !important;
+    margin: 0 0 0 0 !important;
+    font-weight: 800 !important;
+    text-align: left !important;
+    padding-top: 0 !important;
+}
+
+.masthead.segment {
+  min-height: 600px;
+  padding: 1em 0em;
+}
+
+.masthead h1.ui.header {
+  margin-top: 2.5em;
+  margin-bottom: 0em;
+  font-size: 85px;
+  font-weight: 900;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.masthead {
+  background-color: #2E7D32 !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .masthead-header {
+      font-size: 3.0em;
+      text-align: left;
+  }
+
+  .chapter {
+      font-size: 2em !important;
+  }
+
+  .masthead.segment {
+    min-height: 100px;
+    padding: 1em 0em;
+  }
+
+  .masthead h1.ui.header {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
+  .middle {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}

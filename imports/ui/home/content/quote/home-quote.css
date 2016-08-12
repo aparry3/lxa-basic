@@ -1,0 +1,44 @@
+.home-quote {
+    font-size: 2.3em !important;
+    font-weight: 100 !important;
+    color: #2E7D32 !important;
+    text-align: center;
+}
+
+.home-author {
+  font-size: 1.5em !important;
+  font-weight: 100 !important;
+  color: #BDBDBD !important;
+  text-align: center;
+}
+
+.overlay {
+  float: left;
+  margin: 0em 3em 1em 0em;
+}
+
+.grey {
+  color: #BDBDBD !important;
+}
+
+.overlay .menu {
+  position: relative;
+  left: 0;
+  transition: left 0.5s ease;
+}
+
+.overlay.fixed .menu {
+  left: 1000px;
+}
+
+@media only screen and (max-width: 700px) {
+  .overlay {
+    display: none !important;
+  }
+  .home-quote {
+      font-size: 1.5em !important;
+  }
+
+  .home-author {
+    font-size: 1.0em !important;
+}

@@ -1,0 +1,42 @@
+<template name="home_officers">
+  <div class="ui vertical stripe segment">
+    <h3 class="ui header gold-header">Officers</h3>
+    <div class="ui four doubling special cards">
+      {{#each officers}}
+        {{> officer_card}}
+      {{/each}}
+    </div>
+  </div>
+</template>
+
+<template name="officer_card">
+  <div class="card">
+    <div class="blurring dimmable image">
+      <div class="ui dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui inverted button">
+              <a class="email" href="mailto:{{email}}">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="{{imageURL}}">
+    </div>
+    <div class="content">
+      <div class="header">{{name}}</div>
+      <div class="meta">
+        <a>{{position}}</a>
+      </div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">
+        Joined in {{class}}
+      </span>
+      <span>
+        <!-- <i class="house icon"></i> -->
+        {{hometown}}
+      </span>
+    </div>
+  </div>
+</template>
