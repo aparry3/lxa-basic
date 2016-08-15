@@ -111,10 +111,10 @@ Meteor.startup(() => {
         email: 'sigma@gtlambdachi.org'
       },
       {
-        name: 'Griffin Hanekamp',
+        name: 'Alex Wandrick',
         position: 'Standards Chair',
-        class: 'Fall 2012',
-        hometown: 'Chicago, IL',
+        class: 'Fall 2013',
+        hometown: 'Alpharetta, Ga',
         url: 'standards.jpg',
         email: 'standards@gtlambdachi.org'
       }
