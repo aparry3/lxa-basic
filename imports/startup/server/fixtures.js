@@ -39,10 +39,10 @@ Meteor.startup(() => {
         email: 'gamma@gtlambdachi.org'
       },
       {
-        name: 'Aaron Perry',
+        name: 'Aaron Parry',
         position: 'Social Chair',
         class: 'Fall 2014',
-        hometown: 'Dorchester, MA',
+        hometown: 'Hanover, MA',
         url: 'epsilon.jpg',
         email: 'epsilon@gtlambdachi.org'
       },
